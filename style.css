@@ -1,0 +1,154 @@
+.space{
+   margin: 0px;
+   padding: 0px;
+}
+
+.box{
+   background-color: black;
+   text-align: center;
+   color: white;
+   font-size: 15px;
+   margin-top: -25px;
+   font-family: "Papyrus";
+}
+
+
+.vw > img{
+   height: 200px;
+   justify-content: center; 
+}
+ 
+li{
+  display: inline-block;
+  word-spacing: 15px;
+  padding: 10px 50px 10px 50px;
+}
+
+.ani{
+   background-color: blue;
+   color: white;
+   height: 200px;
+   text-align: center;
+   padding: 10px;
+  
+}
+
+.container {
+   display: flex;
+   flex-wrap:wrap;
+   justify-content: center;
+}
+
+
+img {
+  width: 150 px;
+  height: 150 px;
+  margin: 20px;
+  transition: all 1s;
+}
+
+img:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 50px 0px black;
+}
+
+h2{
+  font-family: fantasy;
+  font-size: 70px;
+  text-align: center;
+  justify-content: center;
+  word-spacing: 15px;
+}
+
+h3{
+  text-align: center;
+  word-spacing: 15px;
+  font-family: "Papyrus";
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  font-color: white;
+  min-width: 140px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+p{
+  font-size: 20px;
+  font-family: "Papyrus";
+}
+
+.foot{
+  background-color: black;
+  color: white;
+  height: 30px;
+}
+
+
+.cont{   
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+    padding: 20px;
+}
+
+.zone{
+   cursor: pointer;
+   text-align: center;
+   font-size: 30px;
+   border-radius: 6px;
+   color: white;
+   border: 1px solid black;
+   transition: all 0.3s linear;
+   padding: 20px; 
+   margin: 20px;
+}
+
+.zone:hover{
+   transform: rotate(-7deg);
+   box-shadow: 0px 0px 50px 0px black;
+}
+
+
+.pink{
+   background: #FF1493;
+}
+
+.green{
+  background: green;
+}
+
+.red{
+   background: red;
+}
+
+.blue{
+   background: blue;
+}
+
+.yellow{
+   background: yellow;
+}
+
+.purple{
+   background: purple;
+}
+
+.sticky{
+  position: fixed;
+  top: 10;
+  width: 100%;
+}
